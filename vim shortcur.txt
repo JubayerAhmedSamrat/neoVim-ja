@@ -26,5 +26,6 @@ G      jump to the bottom of the file
 guG    lowercase from cursor to bottom
 guu    lowercase the entire current line
 
+:saveas filename.txt   first go to nomal mode then type this cmd to rename filename
 
 
