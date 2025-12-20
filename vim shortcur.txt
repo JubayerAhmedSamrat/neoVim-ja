@@ -7,8 +7,11 @@ V      select whole line (visual-line mode)
 y      copy selected text
 yy     copy current line
 3yy    copy 3 lines ( use any num instead of 3)
+ggVG"+y Copy the whole file(In Normal mode, type this)[This is visual mode]
+:%y+  Copy the whole file(In command mode, type this) [not visual mode]
+
 d      delete selected text(in vim cutting is deleting )
-3dd	cut the seleted line from the cursor
+3dd    cut the seleted line from the cursor
 
 p      paste below
 P      paste above
@@ -20,9 +23,7 @@ w <filename> save with filename
 q      quit normally(it will show message if not saved any text)
 q!     quit without saving
 
-ggVG"+y Copy the whole file(In Normal mode, type this)[This is visual mode]
 
-:%y+  Copy the whole file(In command mode, type this) [not visual mode]
 gg     jump to the top of the file
 G      jump to the bottom of the file
 15G    jump to a specific line(use any num instead of 15)
