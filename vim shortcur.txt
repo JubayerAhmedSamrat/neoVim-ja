@@ -3,13 +3,17 @@ i      insert mode
 
 v      character selection
 V      select whole line (visual-line mode)
+
 y      copy selected text
 yy     copy current line
 3yy    copy 3 lines ( use any num instead of 3)
+d      delete selected text(in vim cutting is deleting )
+3dd	cut the seleted line from the cursor
+
 p      paste below
 P      paste above
 
-d      delete selected text
+
 
 w      save
 w <filename> save with filename
