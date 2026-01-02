@@ -1,6 +1,7 @@
 esc    normal mode
 i      insert mode
 :!     command mode(i can wirte command here ex: g++ file.cpp -o file)
+/word  search anything (type in place of "word")
 :edit $MYVIMRC  this opens vim config setting
 
 v      character selection
