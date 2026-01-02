@@ -30,6 +30,10 @@ q!     quit without saving
 gg     jump to the top of the file
 G      jump to the bottom of the file
 15G    jump to a specific line(use any num instead of 15)
+Ctrl + f Jump forward a full screen
+Ctrl + b Jump backward a full screen
+Ctrl + d Jump forward a half screen
+Ctrl + u Jump backward a half screen
 
 guG    lowercase from cursor to bottom
 guu    lowercase the entire current line
