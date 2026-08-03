@@ -40,4 +40,4 @@ guu    lowercase the entire current line
 
 :saveas filename.txt   first go to nomal mode then type this cmd to rename filename
 
-
+.
